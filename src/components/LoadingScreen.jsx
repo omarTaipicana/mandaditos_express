@@ -3,7 +3,7 @@ import React from 'react';
 const LoadingScreen = () => {
     return (
         <div>
-            <div className="lds-hourgla"></div>
+            <div className="lds-hourglass"></div>
         </div>
     );
 };
