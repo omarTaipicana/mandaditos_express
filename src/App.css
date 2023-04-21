@@ -19,23 +19,29 @@
 
 .img-header {
   width: 90%;
+  height: 10rem;
 }
 
-.header.icon{
-  width: 5%;
+.header-icon{
+  width: 10%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.img-header-icon-fb {
-  width: 50%;
 
- 
+.a-icon{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
+
+.img-header-icon-fb {
+  width: 80%;
+}
+
 .img-header-icon-wa {
-  width: 60%;
+  width: 100%;
 }
 
 .ul-header {
@@ -77,3 +83,38 @@
   font-size: larger;
   font-weight: 700;
 }
+
+
+/* -------------------------------------------------------------------------------------------- */
+.lds-hourgla {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-hourgla:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 6px;
+  box-sizing: border-box;
+  border: 26px solid rgb(9, 9, 9);
+  border-color: rgb(8, 8, 8) transparent rgb(12, 12, 12) transparent;
+  animation: lds-hourgla 1.2s infinite;
+}
+@keyframes lds-hourgla {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
+/* -------------------------------------------------------------------------------------------------- */
