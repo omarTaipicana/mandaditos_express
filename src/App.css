@@ -59,9 +59,21 @@
   font-weight: 750;
   cursor: pointer;
 }
+/* home --------------------------------------------------------------------------------------- */
 
-/* footer ---------------------------------------------------------------------------------------
- */
+.home{
+  display: flex;
+}
+
+.video-home-content{
+  width: 30%;
+}
+
+
+
+
+
+/* footer --------------------------------------------------------------------------------------- */
 
 .footer {
   padding-bottom: 1rem;
@@ -80,7 +92,7 @@
 .footer-link {
   text-decoration: none;
   color: rgb(7, 1, 120);
-  font-size: larger;
+  font-size: medium;
   font-weight: 700;
 }
 
